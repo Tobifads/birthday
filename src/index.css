@@ -1,1 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe4e1, #fffaf0);
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  color: #d6336c;
+}
+
+.images img {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.music-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #ff85a2;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.music-links a:hover {
+  background-color: #e55381;
+}
+
+.readme-button {
+  margin-top: 30px;
+}
+
+.readme-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #ff69b4;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.readme {
+  display: none;
+  margin-top: 20px;
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.readme.show {
+  display: block;
+}
 
