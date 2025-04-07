@@ -1,6 +1,6 @@
 // Birthday.jsx
 import React, { useState } from 'react';
-import './styles.css';
+import './index.css';
 
 const Birthday = () => {
   const [showReadMe, setShowReadMe] = useState(false);
